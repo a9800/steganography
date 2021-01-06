@@ -5,4 +5,10 @@ Compile the program:
 gcc steg.c steg.h
 
 Usage:
-a.out [e for encrypt d for decrypt] [PPMimage]
+
+Encryption:
+a.out e [PPM-image] > [new-PPM-image]
+
+Decryption:
+a.out d [new-PPM-image]
+
